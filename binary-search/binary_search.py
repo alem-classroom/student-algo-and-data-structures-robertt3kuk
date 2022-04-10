@@ -2,7 +2,7 @@
 
 def binary_search(lst, to_find):
     # search for the element to_find inside lsti
-'''    first = 0
+    '''    first = 0
     last = len(lst)-1
     index = -1
     val = to_find
