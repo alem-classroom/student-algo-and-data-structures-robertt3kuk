@@ -1,7 +1,6 @@
 def linear_search(lst, to_find):
   # search for the element to_find inside lst
-  lst.sort()
-  for i in range(0,len(lst)):
+  for i in range(len(lst)):
       if lst[i] == to_find:
           return i 
   return -1
